@@ -7,7 +7,6 @@
 //
 
 #import "___VARIABLE_classPrefix:identifier___WindowController.h"
-#import "___VARIABLE_classPrefix:identifier___WindowController_SubclassInterface.h"
 #import "___VARIABLE_classPrefix:identifier___WindowController_TestInterface.h"
 
 @interface ___VARIABLE_classPrefix:identifier___WindowController ()
