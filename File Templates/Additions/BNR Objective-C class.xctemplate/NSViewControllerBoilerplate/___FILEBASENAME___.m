@@ -14,4 +14,13 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+- (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle
+{
+    self = [super initWithNibName:nibName bundle:nibBundle];
+    if (self) {
+        // Initialization code here.
+    }
+    return self;
+}
+
 @end
