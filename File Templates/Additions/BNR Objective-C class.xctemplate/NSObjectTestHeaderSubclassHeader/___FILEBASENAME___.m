@@ -7,6 +7,8 @@
 //
 
 #import "___FILEBASENAME___.h"
+#import "___FILEBASENAME____TestInterface.h"
+#import "___FILEBASENAME____SubclassInterface.h"
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 

@@ -6,8 +6,8 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAME___.h"
+___IMPORTHEADER_cocoaSubclass___
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaSubclass___
 
 @end
