@@ -68,6 +68,58 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Whether to include default boilerplate code</string>
+			<key>Identifier</key>
+			<string>Boilerplate</string>
+			<key>Name</key>
+			<string>Include boilerplate</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaSubclass</key>
+				<array>
+                    <string>NSView</string>
+					<string>NSDocument</string>
+					<string>NSViewController</string>
+					<string>NSWindowController</string>
+				</array>
+			</dict>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+        <dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>Whether to create a test header file</string>
+			<key>Identifier</key>
+			<string>TestHeader</string>
+			<key>Name</key>
+			<string>Also create a test header</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+        </dict>
+        <dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Whether to create a subclass header file</string>
+			<key>Identifier</key>
+			<string>SubclassHeader</string>
+			<key>Name</key>
+			<string>Also create a subclass header</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+        </dict>
+		<dict>
+			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
 			<string>Whether to create a XIB file with the same name</string>
